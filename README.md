@@ -36,17 +36,17 @@ AgroBridge is a **Next.js web application** designed to bridge the gap between f
 
 ---
 
-## ⚡ Pages & Routes
+## ⚡ Pages
 
-| Page                     | Route                          | Description                                           |
-|---------------------------|--------------------------------|-------------------------------------------------------|
-| Home                      | `/`                             | Landing page with hero section and latest updates.   |
-| About                     | `/about`                        | Information about AgroBridge.                        |
-| Contact                   | `/contact`                      | Contact form for signed-in users.                    |
-| Market Locations          | `/services/markets`             | Explore available agricultural markets.              |
-| Brokers List              | `/services/brokers`             | List of registered brokers.                          |
-| Book Appointment          | `/services/book-appointment`    | Schedule meetings with brokers/farmers.             |
-| Sign In / User Profile    | `/sign-in` / Clerk UserButton   | Authentication and user management.                 |
+| Page                     | Description                                           |
+|---------------------------|-------------------------------------------------------|
+| Home                      | Landing page with hero section and latest updates.   |
+| About                     | Information about AgroBridge.                        |
+| Contact                   | Contact form for signed-in users.                    |
+| Market Locations          | Explore available agricultural markets.              |
+| Brokers List              | List of registered brokers.                          |
+| Book Appointment          | Schedule meetings with brokers/farmers.             |
+| Sign In / User Profile    | Authentication and user management.                 |
 
 ---
 
@@ -56,3 +56,8 @@ AgroBridge is a **Next.js web application** designed to bridge the gap between f
 ```bash
 git clone https://github.com/shreypatel444/AgroBridge.git
 cd AgroBridge
+
+2. **Install dependencies**
+npm install
+# or
+yarn install
