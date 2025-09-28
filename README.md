@@ -1,36 +1,116 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🌾 AgroBridge
+Connecting Farmers & Brokers for a Sustainable Marketplace
 
-## Getting Started
+AgroBridge is a Next.js web application designed to bridge the gap between farmers and brokers, enabling direct interaction, better price transparency, and a seamless agricultural marketplace experience. It features high-level UI/UX, responsive design, and rich functionality for both farmers and brokers.
 
-First, run the development server:
+🚀 Features
+Responsive & High-Level UI – Built with TailwindCSS, Framer Motion, and Lottie animations for a smooth and modern interface.
 
-```bash
+Authentication – Secure login and user management using Clerk.
+
+Dynamic Navbar – Shows different navigation links depending on whether the user is signed in.
+
+About Page – Showcases the mission and vision of AgroBridge.
+
+Contact Page – Allows signed-in users to reach out to support or stakeholders.
+
+Book Appointment – Schedule meetings between farmers and brokers.
+
+Market Explore – Browse agricultural markets and discover opportunities.
+
+Brokers Directory – List of verified brokers for easy contact and networking.
+
+Animations & Interactions – Smooth transitions, hover effects, and animated hero section for engaging UX.
+
+🖥️ Screenshots
+(Add screenshots of Home, About, Contact, Services, etc.)
+
+📦 Tech Stack
+Frontend: Next.js, React
+
+Styling: TailwindCSS
+
+Authentication: Clerk
+
+Animations: Framer Motion, Lottie
+
+Icons: Lucide React
+
+⚡ Pages & Routes
+Page	Route	Description
+Home	/	Landing page with hero section and latest updates.
+About	/about	Information about AgroBridge.
+Contact	/contact	Contact form for signed-in users.
+Market Locations	/services/markets	Explore available agricultural markets.
+Brokers List	/services/brokers	List of registered brokers.
+Book Appointment	/services/book-appointment	Schedule meetings with brokers/farmers.
+Sign In / User Profile	/sign-in / Clerk UserButton	Authentication and user management.
+🔧 Installation
+Clone the repository
+
+git clone https://github.com/shreypatel444/AgroBridge.git
+cd AgroBridge
+Install dependencies
+
+npm install
+# or
+yarn install
+Set up environment variables
+
+Create a .env.local file and add your Clerk keys:
+
+NEXT_PUBLIC_CLERK_FRONTEND_API=<your-clerk-frontend-api>
+CLERK_API_KEY=<your-clerk-api-key>
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+Run the development server
+
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open http://localhost:3000 to see your app in the browser.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📌 Usage
+Navigate to / to see the Home page.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Sign in via Clerk to access Contact, Services, and Book Appointment features.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Explore markets and brokers using the Services dropdown.
 
-## Learn More
+Book appointments directly with brokers through the appointment page.
 
-To learn more about Next.js, take a look at the following resources:
+💡 Future Enhancements
+Integrate live market data for real-time updates.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Enable notifications for appointment reminders.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Add multi-language support for farmers from different regions.
 
-## Deploy on Vercel
+Implement rating & review system for brokers.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🤝 Contributing
+Contributions are welcome!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Fork the repository
+
+Create your feature branch (git checkout -b feature/YourFeature)
+
+Commit your changes (git commit -m 'Add some feature')
+
+Push to the branch (git push origin feature/YourFeature)
+
+Open a Pull Request
+
+📄 License
+This project is licensed under the MIT License.
+
+💬 Contact
+Developer: Shrey Patel
+
+Email: your-email@example.com
+
+GitHub: https://github.com/shreypatel444
+
+🌟 Project Status
+✅ Fully functional Next.js application with responsive design and essential features for farmers and brokers.
+
