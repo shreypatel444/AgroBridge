@@ -56,8 +56,11 @@ AgroBridge is a **Next.js web application** designed to bridge the gap between f
 ```bash
 git clone https://github.com/shreypatel444/AgroBridge.git
 cd AgroBridge
+```
 
 2. **Install dependencies**
+```bash
 npm install
 # or
 yarn install
+```
