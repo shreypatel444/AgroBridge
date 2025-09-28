@@ -20,12 +20,6 @@ AgroBridge is a **Next.js web application** designed to bridge the gap between f
 
 ---
 
-## 🖥️ Screenshots
-
-*(Add screenshots of Home, About, Contact, Services, etc.)*  
-
----
-
 ## 📦 Tech Stack
 
 - **Frontend:** Next.js, React  
@@ -64,3 +58,37 @@ npm install
 # or
 yarn install
 ```
+
+3. **Set up environment variables**
+```bash
+NEXT_PUBLIC_CLERK_FRONTEND_API=<your-clerk-frontend-api>
+CLERK_API_KEY=<your-clerk-api-key>
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+```
+
+4. Run the development server
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+---
+
+## 📌 Usage
+- Navigate to the Home page to see the hero section and latest updates.
+- Sign in via Clerk to access Contact, Services, and Book Appointment features.
+- Explore markets and brokers using the Services dropdown.
+- Book appointments directly with brokers through the appointment page.
+
+---
+
+## 💡 Future Enhancements
+- Integrate live market data for real-time updates.
+- Enable notifications for appointment reminders.
+
+---
+
+## 📄 License
+This project is licensed under the MIT License.
